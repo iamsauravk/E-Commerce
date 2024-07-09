@@ -1,0 +1,359 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(230, 200, 200);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    margin-left: 9px;
+    font-size: 20px;
+    color: #ece1e1;
+    font-weight: bold;
+    font-family: brus;
+    cursor: pointer;
+}
+a {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+nav{
+    position: fixed;
+    margin-top: -195px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #915555;
+    padding: 20px;
+    z-index: 100;
+}
+ul {
+    display: flex;
+    margin-right: 11px;
+}
+#search {
+    width: 300px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #cf9797;
+}
+
+nav ul a{
+    color: #000000;
+}
+nav ul #homes{
+    color: rgb(247, 228, 228);
+}
+nav button{
+    width: 80px;
+    height: 30px; 
+    background-color: rgb(180, 106, 106);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 32px;
+
+}
+nav button:hover{
+    
+    background-color: #cf9797;
+    border: 2px solid rgb(179, 144, 144);
+    color: rgb(53, 50, 50);
+    transition: 0.3s ease;
+    
+    
+}
+#log{
+    position: relative;
+    margin-left: 78%;
+    margin-top: -1%;
+    display: none;
+    width: 230px;
+    text-align: center;
+    background-color: #fff;
+    padding: 22px;
+
+}
+#log input{
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    margin-top: 11px;
+    padding: 5px;
+    border: 2px solid black;
+}
+#log button{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(209, 185, 185);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 11px;
+}
+ul a{
+    font-size: 17px;
+    text-decoration: none;
+    margin-inline: 29px;
+    margin-top: 7px;
+    cursor: pointer;
+    color: black;
+}
+ul a:hover{
+    border-bottom:2px solid rgb(184, 135, 135) ;
+    color: rgb(206, 165, 165);
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 190px;
+     
+    
+}
+.main img{
+    height: 700px;
+    width: 550px;
+    margin-right: -90px;
+    
+}
+
+.main .text{
+    margin-top: 105px;
+    
+}
+
+.text h1{
+    font-size:58px;
+}
+.text h3{
+    margin-top: 11px;
+    font-size: 36px;
+    color: rgb(3, 148, 148);
+}
+.main .text p{
+    margin-top: 21px;
+    color: rgb(58, 57, 57);
+}
+.text button{
+    position: relative;
+    width: 140px;
+    height: 40px;
+    background-color: rgb(175, 49, 49);
+    color: white;
+    font-size: 22px;
+    border-radius: 2px;
+    margin-top: 26px;
+    border: none;
+}
+.text button:hover{
+    background-color: transparent;
+    border: 3px solid rgb(167, 101, 101);
+    color: black;
+    cursor: pointer;
+    transition: 0.7s ease;
+    font-size: 26px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+}
+
+.shop .card{
+    width: 290px;
+    height: 460px;
+    background-color: #cfa5a5;
+    padding: 16px;
+    margin-inline: 22px;
+    border-radius: 20px;
+    
+}
+.shop .card:hover{
+    transition: 0.6s ease;
+    width: 299px;
+    height: 470px;
+    background-color: rgb(255, 255, 255);
+}
+.shop .card img{
+    width:100%;
+    height: 79%;
+    border-radius: 5px;
+    
+}
+.cardText {
+    color: #181818;
+}
+
+.cardText i{
+    color: rgb(255, 176, 4);
+}
+.cardText{
+    font-size: 19px;
+    margin-top:  11px;
+    
+}
+.cardText button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(218, 204, 204);
+    color: rgb(131, 26, 26);
+    font-size: 13px;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+.cardText h3{
+    margin-top: 9px;
+}
+.cardText i{
+    margin-top: 9px;
+}
+.head{
+    text-align: center;
+    /* margin-top: 93px; */
+    padding: 92px;
+}
+.head span{
+    color: rgb(3, 165, 165);
+}
+
+.trending{
+    display: flex;
+    justify-content: center;
+}
+.trendCard{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-inline: 22px;
+    background-color: #d4b4b4;
+    border-radius: 8px;
+}
+.trendCard img{
+    padding: 11px;
+    width: 88%;
+    border-radius:15px;
+}
+.trendCard:hover{
+    width: 510px;
+    height: 310px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.trendText{
+    margin-top: 53px;
+    padding: 22px;
+}
+.trendText p{
+    margin-top: 11px;
+}
+.trendText a{
+  position: relative;
+  top: 22px;
+    width: 70px;
+    padding: 4px;
+    background-color: rgb(233, 222, 222);
+    color: rgb(90, 61, 61);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 6px;
+ 
+}
+.trendText a:hover{
+    background-color: #fff;
+    color: rgb(151, 109, 109);
+    cursor: pointer;
+}
+
+.read{
+    display: flex;
+    justify-content: center;
+}
+.readBlog{
+    width: 300px;
+    height: 360px;
+    background-color: #eed5d5;
+    text-align: center;
+    margin-inline: 22px;
+}
+.readBlog img{
+    width: 45%;
+    border-radius: 50%;
+    padding: 22px;
+}
+.readBlog p{
+    padding: 19px;
+}
+.readBlog i{
+    color: rgb(139, 59, 30);
+    font-size: 22px;
+}
+.contactUs{
+    text-align: center;
+    border: 3px solid rgb(104, 58, 32);
+    width: 600px;
+    padding: 33px;
+    margin-left: 32%;
+}
+.contactUs input{
+    width: 400px;
+    height: 12px;
+    outline: none;
+    padding: 11px;
+    margin-top: 22px;
+    border: 2px solid rgb(184, 114, 114);
+    font-size: 18px;
+}
+.contactUs button{
+    margin-top: 22px;
+    width: 120px;
+    height: 38px;
+    background-color:rgb(117, 57, 70);
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.contactUs button:hover{
+    border: 2px solid rgb(133, 76, 62);
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(95, 59, 66);
+    padding: 63px;
+   margin-top: 33px;
+     
+}
+.footer h2 {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.footer .text{
+    color: white;
+}
+.text p{
+    color: #fff;
+    margin-top: 7px;
+}

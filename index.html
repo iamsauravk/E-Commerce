@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Donkey</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Urban Donkey</h1>
+        </div>
+        <ul>
+            <button id="search">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+            <a onclick="home()" id="homes" href="" >HOME</a>
+            <a onclick="cloth()" id="cloths" href="#cloth">Shop</a>
+            <a onclick="blog()" id="blogs" href="#blog">Blogs</a>
+            <a onclick="review()" id="reviews" href="#review">Ratings</a>
+            <a onclick="contact()" id="contacts" href="#contact">Contact</a>
+            <button id="login">Log In</button>
+
+
+        </ul>
+    </nav>
+    
+    <div id="log">
+        <input id="logName" type="text" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password"><br>
+        <button id="btn">Log In</button>
+
+    </div>
+
+    <div class="main" >
+        <div class="text">
+            <h1>Grab Your Deal & Exciting Offers</h1>
+            <h3>Buy Now To Save Upto 60%</h3>
+            <p>Discover a curated collection crafted to elevate your wardrobe, blending contemporary trends with timeless classics.
+                <br>Whether you're seeking everyday essentials or statement pieces, our commitment to quality ensures you'll find pieces
+                <br>that fit flawlessly and inspire confidence.
+                <br><br>Explore fashion-forward designs tailored to reflect your unique style.</p>
+            <button><a onclick="cloth()" id="cloths" href="#cloth">Explore</a></button>
+        </div>
+
+        <img src="img/main.png" alt="">
+    </div>
+
+    <div class="women" id="cloth">
+        <div class="head">
+            <h1>Explore <span>Women's Clothing</span></h1>
+        </div>
+
+        <div class="shop">
+            <div class="card">
+                <img src="img/g1.jpg" alt="">
+                <div class="cardText">
+                    <p>Women's Blue Stardust Soul</p>
+                    <h3>&#8377;499</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/g2.jpg" alt="">
+                <div class="cardText">
+                    <p>Women's T-Shirt You're So Golden</p>
+                    <h3>&#8377;699</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+ 
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/g3.jpg" alt="">
+                <div class="cardText">
+                    <p>Women's Red Emotional</p>
+                    <h3>&#8377;509</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/g4.jpg" alt="">
+                <div class="cardText">
+                    <p>Printed Multicolor T-Shirt</p>
+                    <h3>&#8377;499</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="women" id="cloth">
+        <div class="head">
+            <h1>Explore <span>Men's Clothing</span></h1>
+        </div>
+
+        <div class="shop">
+            <div class="card">
+                <img src="img/m1.jpg" alt="">
+                <div class="cardText">
+                    <p>Men's Blue Moon Knight</p>
+                    <h3>&#8377;1099</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/m2.jpg" alt="">
+                <div class="cardText">
+                    <p>Casual Adventure Bike</p>
+                    <h3>&#8377;599</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/m3.jpg" alt="">
+                <div class="cardText">
+                    <p>Men's Black T-Shirts</p>
+                    <h3>&#8377;499</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/m4.jpg" alt="">
+                <div class="cardText">
+                    <p>Men's White Marvel</p>
+                    <h3>&#8377;669</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blogs -->
+
+    <div class="trend" id="blog">
+        <div class="head">
+            <h1>Read <span>Our Blogs</span></h1>
+        </div>
+        <div class="trending">
+            <div class="trendCard">
+                <img src="img/trend1.webp" alt="">
+                <div class="trendText">
+                    <h2>Girl's Trending Tops</h2>
+                    <p>Stay Ahead of the Curve: Discover the Latest Trends in Tops!</p>
+                    <a href="https://www.faballey.com/blog" >Read More</a >
+                </div>
+            </div>
+            <div class="trendCard">
+                <img src="img/trend2.webp" alt="">
+                <div class="trendText">
+                    <h2>Trending T-Shirts</h2>
+                    <p>Style and Comfort Collide: Unveiling the Latest Trends in T-Shirts!</p>
+                    <a href="https://www.apetogentleman.com/">Read More</a >
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- review -->
+    <div class="blog" id="review">
+        <div class="head">
+            <h1>Customer <span>Review</span></h1>
+        </div>
+        <div class="read">
+            <div class="readBlog">
+             <img src="img/r1.png" alt="">
+             <p>"Absolutely loved the quality and fit of my new shirt! It arrived promptly and looks even better in person. Will definitely be shopping here again!" - Sarah M.</p>
+                   <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i> 
+            </div>
+            <div class="readBlog">
+                <img src="img/r2.png" alt="">
+                <p>"The variety of t-shirts on this site is amazing! Found exactly what I was looking for, and the sizing guide was spot on. Very happy with my purchase!" - James R.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+               </div>
+               <div class="readBlog">
+                <img src="img/r3.png" alt="">
+                <p>"Impressed with the softness and durability of the fabric. The colors are vibrant and haven't faded after several washes. Great value for money!" - Emily S.</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i> 
+               </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="head">
+            <h1>Contact <span>Us</span></h1>
+        </div>
+        <div class="contactUs">
+            <h3>Connect With Us</h3>
+            <input id="name" type="text" placeholder="Enter Your Name"> <br>
+            <input type="text" placeholder="Enter Mobile Number"> <br>
+            <button onclick="submit()">Submit</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="text">
+            <h2>About US</h2>
+            <p>Our mission is simple:
+                <br>to offer a meticulously
+                <br>curated selected cloth
+                <br>that combines style,
+                <br>comfort, and quality.</p>
+            
+
+        </div>
+        <div class="text">
+            <h2>Connect At</h2>
+            <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+            <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+            <p><i class="fa-brands fa-whatsapp"></i> WhatsApp</p>
+            <p><i class="fa-brands fa-x-twitter"></i> X (Twitter)</p>
+
+        </div>
+        <div class="text">
+            <h2>Services</h2>
+            <p><i class="fa-solid fa-phone"></i> Contact Us</p>
+            <p><i class="fa-solid fa-magnifying-glass"></i> Track Order</p>
+            <p><i class="fa-solid fa-right-left"></i> Return Order</p>
+            <p><i class="fa-solid fa-ban"></i> Cancel Order</p>
+
+        </div>
+        <div class="text">
+            <h2>Address <i class="fa-solid fa-location-dot"></i></h2>
+            <p>E45-0C, 6th Floor</p>
+            <p>Thomas Complex,</p>
+            <p>Bangalore - 560001</p>
+             
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
